@@ -1,0 +1,59 @@
+/* ========== MedVault Global Styles ========== */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f9ff;
+}
+
+/* Dashboard full screen center */
+.dashboard {
+  height: 100vh;                 /* take full screen */
+  display: flex;                 /* enable flexbox */
+  justify-content: center;       /* center horizontally */
+  align-items: center;           /* center vertically */
+  background-color: #f4f9ff;
+}
+
+/* Card design */
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome heading */
+.welcome-title {
+  font-size: 26px;
+  color: #0a3d62;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.welcome-subtitle {
+  font-size: 14px;
+  color: #576574;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1e90ff;
+  color: white;
+  cursor: pointer;
+}
+
+/* Disabled buttons */
+button:disabled {
+  background-color: #b2bec3;
+  cursor: not-allowed;
+}
